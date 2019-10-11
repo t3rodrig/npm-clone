@@ -3,11 +3,16 @@ nav {
     color: rgba(255, 255, 255, 0.8);
     padding-top: 15px;
     height: 100px;
+    position: relative;
 }
 
 nav a {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
+}
+
+.top-left {
+    float: left;
 }
 
 .top-links {
@@ -20,4 +25,76 @@ nav a {
 .top-links li {
     display: inline-block;
     margin: 0 10px;
+}
+
+.link-btn {
+    color: white;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+  }
+
+#header {
+    color: white;
+    background-color: rgb(32, 101, 136);
+    background-image: url("images/city-scape.svg");
+    height: 360px;
+}
+
+#npm-logo {
+    height: 30px;
+    padding: 10px 10px;
+    /*float: left;*/
+}
+
+#bear-logo{
+    height: 30px;
+    margin: 5px 10px;
+}
+
+#header .search-area{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#header .search-area input {
+    /*width: 400px;*/
+    height: 30px;
+    padding: 0 5px;
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+    margin: 10px 0;
+    background-color: rgb(31, 82, 111);
+}
+
+#header .search-area button {
+    height: 31px;
+    padding: 0 8px;
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+    margin: 10px 0;
+    background-color: rgb(31, 82, 111);
+}
+
+#header .search-area span, a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#header .link-btn {
+    background-color: rgb(240, 146, 51);
+}
+
+#header .description {
+    width: 440px;
+    margin: 0 auto;
+}
+
+#nmp-org .link-btn {
+    background-color: rgb(203, 56, 55);
+}
+
+#what-is-npm .link-btn {
+    background-color: rgb(49, 68, 88);
 }
