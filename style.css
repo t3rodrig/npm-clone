@@ -2,7 +2,7 @@ nav {
     background-color: #C12127;
     color: rgba(255, 255, 255, 0.8);
     padding-top: 15px;
-    height: 100px;
+    height: 30px;
     position: relative;
 }
 
@@ -49,16 +49,15 @@ nav a {
     /*float: left;*/
 }
 
-#bear-logo{
+#bear-logo {
     height: 30px;
     margin: 5px 10px;
 }
 
-#header .search-area{
+#header .search-area {
     display: flex;
     justify-content: space-between;
 }
-
 
 #header .search-area input {
     /*width: 400px;*/
@@ -77,7 +76,11 @@ nav a {
     background-color: rgb(31, 82, 111);
 }
 
-#header .search-area span, a {
+#header .search-area span {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#header .search-area a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.8);
 }
@@ -91,10 +94,80 @@ nav a {
     margin: 0 auto;
 }
 
+#nmp-org {
+    color: white;
+    background-color: rgb(39, 53, 71);
+    height: 360px;
+    display: flex;
+    flex-direction: row;
+    //justify-content: center;
+    align-items: center;
+}
+
+#nmp-org img {
+    width: 300px;
+}
+
+#nmp-org .content {
+    width: 440px;
+    padding: 0 auto;
+    margin: 0 auto;
+    /*float: right;*/
+}
+
 #nmp-org .link-btn {
     background-color: rgb(203, 56, 55);
+}
+
+#what-is-npm {
+    color: white;
+    background-image: url("images/forklift.svg");
+    background-size: cover;
+    height: 360px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#what-is-npm .content{
+    position: absolute;
+    width: 320px;
 }
 
 #what-is-npm .link-btn {
     background-color: rgb(49, 68, 88);
 }
+
+#what-you-can-make h3 {
+    color: rgb(83, 88, 98);
+}
+
+#what-you-can-make h4 {
+    color: rgb(135, 145, 156);
+}
+
+#what-you-can-make a {
+    color: rgb(208, 74, 73);
+    text-decoration: none;
+}
+
+#what-you-can-make > div:nth-of-type(2) {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #what-you-can-make .box {
+    text-align: center;
+    width: 33%;     
+  }
+ 
+#what-you-can-make .box img {
+    width: 125px;
+  }
+
+.container {
+    margin: 0 auto;
+  }
