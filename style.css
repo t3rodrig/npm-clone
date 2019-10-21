@@ -1,12 +1,16 @@
-nav {
-    background-color: #C12127;
-    color: rgba(255, 255, 255, 0.8);
-    padding-top: 15px;
-    height: 30px;
-    position: relative;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-nav a {
+#nav-bar {
+    background-color: #C12127;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    height: 20px;
+}
+
+#nav-bar a {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
 }
@@ -16,10 +20,7 @@ nav a {
 }
 
 .top-links {
-    display: inline-block;
     float: right;
-    padding: 0;
-    margin: 0 20px 0 0;
 }
 
 .top-links li {
