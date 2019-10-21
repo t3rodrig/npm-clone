@@ -41,7 +41,7 @@
     color: white;
     background-color: rgb(32, 101, 136);
     background-image: url("images/city-scape.svg");
-    height: 360px;
+    height: 450px;
 }
 
 #npm-logo {
@@ -91,56 +91,96 @@
 }
 
 #header .description {
-    width: 440px;
+    width: 70%;
     margin: 0 auto;
 }
 
-#nmp-org {
+#header .description h1 {
+    margin: 20px 0;
+}
+
+#header .description p {
+    width: 430px;
+    padding: 10px 0;
+    margin: 20px 0;
+}
+
+#npm-org {
     color: white;
     background-color: rgb(39, 53, 71);
-    height: 360px;
+    height: 450px;
     display: flex;
     flex-direction: row;
-    //justify-content: center;
     align-items: center;
 }
 
-#nmp-org img {
+#npm-org img {
     width: 300px;
 }
 
-#nmp-org .content {
-    width: 440px;
-    padding: 0 auto;
+#npm-org .collab {
+    width: 20%;
     margin: 0 auto;
-    /*float: right;*/
 }
 
-#nmp-org .link-btn {
+#npm-org .content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#npm-org .content h3 {
+    padding: 20px 0;
+}
+
+#npm-org .content ul {
+    padding: 20px 25px;
+}
+
+#npm-org .content p {
+    padding: 20px 0;
+}
+
+#npm-org .content a {
+    text-decoration: none;
+    color: white;
+}
+
+#npm-org .link-btn {
     background-color: rgb(203, 56, 55);
 }
 
 #what-is-npm {
     color: white;
     background-image: url("images/forklift.svg");
-    background-size: cover;
-    height: 360px;
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    height: 450px;
 }
 
 #what-is-npm .content{
-    position: absolute;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#what-is-npm .content h3 {
+    padding: 50px 0 10px 0;
+}
+
+#what-is-npm .content p {
     width: 320px;
+    padding: 10px 0;
+    margin: 20px 0;
 }
 
 #what-is-npm .link-btn {
     background-color: rgb(49, 68, 88);
 }
 
+#what-you-can-make .content {
+    width: 70%;
+    margin: 0 auto;
+}
+
 #what-you-can-make h3 {
+    text-align: center;
     color: rgb(83, 88, 98);
 }
 
@@ -167,8 +207,4 @@
  
 #what-you-can-make .box img {
     width: 125px;
-  }
-
-.container {
-    margin: 0 auto;
   }
